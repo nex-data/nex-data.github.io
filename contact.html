@@ -251,7 +251,7 @@
   opacity: 0.2;
 }
 
-
+.form-control {margin-bottom:15px;}
 
 
 
@@ -348,13 +348,19 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <form action="https://secure.mailjol.net/allforms/u/81c446c3.php" method="post">
+<!--                 <form action="https://secure.mailjol.net/allforms/u/81c446c3.php" method="post">
                     <h2 class="text-center">Contact us</h2>
                     <div class="form-group"><input type="text" class="form-control" name="name" placeholder="Name" /></div>
                     <div class="form-group"><input type="email" class="form-control is-invalid" name="email" placeholder="Email" /><small class="form-text text-danger">Please enter a correct email address.</small></div>
                     <div class="form-group"><textarea class="form-control" name="message" placeholder="Message" rows="14"></textarea></div>
                     <div class="form-group"><button class="btn btn-primary" type="submit">send </button></div>
-                </form>
+                </form> -->
+				<form action="https://secure.mailjol.net/allforms/u/81c446c3.php">
+				<input type="text" class="form-control" name="name" placeholder="Name">
+				<input type="email" class="form-control" name="email" placeholder="Email">
+				<textarea type="text" class="form-control" name="message" placeholder="Message" rows="14"></textarea>
+				<input type="submit" class="btn btn-primary" value="Send">
+				</form> 
             </div>
         </div>
     </div>
